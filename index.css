@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: monospace;
+}
+
+header{
+    background-image: url(new/imf.jpg);
+    height:100vh;
+    background-image: cover;
+    background-size: 100%;
+}
+.aldeek{
+    width: 1200px;
+    margin: auto;
+}
+.logo img{
+    width: 170px;
+    height: auto;
+}
+.eyad{
+    float:right;
+    margin-top: 30px;
+}
+.eyad li a:hover{
+    border:1px solid#fff    ;
+    background-color: rgba(0,255,0,0.7);
+}
+.eyad li{
+list-style: none;
+display: inline-block;
+margin-right: 20px ;
+}
+.eyad li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    color: wheat;
+    margin-top:10px ;
+    font-family: Langar,sans-serif;
+}
+.eyad li a.active{
+    border: 1px solid rgb(0, 0, 0);
+}
+.title{
+    width: 1200px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    text-transform:uppercase;
+    font-family: Langar,sans-serif;
+    font-size: 30px;
+    margin-top:330px ;
+    text-align: center;
+    color: wheat;
+}
+.btn1{
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    margin-right:5px ;
+    text-align: center;
+}
+.btn2{
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    margin-right:5px ;
+    text-align: center;
+    margin-top:15px; 
+}
+.btn1{
+    border: 1px solid#000;
+    background-color:darkorange ;
+}
+.btn2:hover{
+    background-color:darkorange ;
+
+}
